@@ -9,7 +9,7 @@ export default function Home(){
 
     return(
         <>
-            <div className='home'>
+            <div className='page-cont'>
                 <div className='green-cont home-welcome'>
                     <h1 className='home-h1'>Welcome to Greenfield Local Hub</h1>
                     <p>We are a cooperative of farmers and producers aiming to provide organic, healthy and affordable produce for the local community.</p>

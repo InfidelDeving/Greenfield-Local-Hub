@@ -7,6 +7,9 @@
     width: fit-content;
     padding: 15px;
     border-radius: 44px;
+    > p{
+        margin: 2%;
+    }
     > img{
         max-width: 200px;
     }

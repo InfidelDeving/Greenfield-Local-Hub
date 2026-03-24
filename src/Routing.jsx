@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router"
 import Home from "./pages/Home/Home"
+import Producers from "./pages/Producers/Producers"
+
 
 export default function Routing(){
 
@@ -9,7 +11,7 @@ export default function Routing(){
             <Route path="/" element={<Home/>}/>
             {/* <Route path="/shop" element={<Shop/>}/> */}
             {/* <Route path="/item" element={<Item/>}/> */}
-            {/* <Route path="/producers" element={<Producers/>}/> */}
+            <Route path="/producers" element={<Producers/>}/>
             {/* <Route path="/login" element={<Login/>}/> */}
         </Routes>
         </>

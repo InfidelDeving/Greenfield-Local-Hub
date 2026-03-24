@@ -1,0 +1,16 @@
+.producer-page-card-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.producer-h1{
+    font-weight: 400;
+}
+
+.title-layout-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 12px 12px 12px;
+}

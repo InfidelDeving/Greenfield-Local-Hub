@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.footer-link{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.footer-email{
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer {
+      flex-direction: column;
+    }
+  }

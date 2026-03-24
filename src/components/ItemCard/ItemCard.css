@@ -1,0 +1,23 @@
+.item-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--secondary);
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+    gap: 0;
+    border-radius: 44px;
+    > img{
+        max-width: 200px;
+    }
+}
+
+.item-card-btn{
+    font-size: medium;
+}
+
+.item-name{
+    align-self: center;
+    font-weight:500;
+}

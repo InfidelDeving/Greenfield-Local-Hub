@@ -7,10 +7,10 @@ export default function Routing(){
         <>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/shop" element={<Shop/>}/>
-            <Route path="/item" element={<Item/>}/>
-            <Route path="/producers" element={<Producers/>}/>
-            <Route path="/login" element={<Login/>}/>
+            {/* <Route path="/shop" element={<Shop/>}/> */}
+            {/* <Route path="/item" element={<Item/>}/> */}
+            {/* <Route path="/producers" element={<Producers/>}/> */}
+            {/* <Route path="/login" element={<Login/>}/> */}
         </Routes>
         </>
     )

@@ -1,0 +1,8 @@
+.green-cont{
+    background-color: var(--accent);
+    border-radius: 30px;
+    padding: 8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}

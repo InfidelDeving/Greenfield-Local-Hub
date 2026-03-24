@@ -1,0 +1,41 @@
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.home-h1{
+    font-weight: 400;
+}
+
+.home-welcome{
+    font-size: 22pt;
+    padding: 32px;
+}
+
+
+.producers-cont{
+    justify-content: center;
+    align-items: center;
+    font-size: 22pt;
+    padding: 0px 32px 32px 32px;
+}
+
+.items-cont{
+    justify-content: center;
+    align-items: center;
+    font-size: 22pt;
+    padding: 0px 32px 32px 32px;
+}
+
+.home-card-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 14pt;
+}

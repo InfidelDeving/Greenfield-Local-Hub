@@ -21,7 +21,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+*{
+  font-family: "Barlow";
+}
 
 button{
   border: none;

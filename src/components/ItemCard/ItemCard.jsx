@@ -1,17 +1,17 @@
 import "./ItemCard.css"
 
-export default function ItemCard({image, name, price, weight, stock}){
+export default function ItemCard({image, name, price, weight, stock, home_page}){
 
     return(
         <>
         <div className="item-card">
-            <img src={image} alt="item image" />
-            <h2 className="item-name">{name}</h2>
+            <img src={image} alt="item image" /> {/* MAKE THIS A NAVLINK TO ITEM PAGE LATER */}
+            <h2 className="item-name">{name}</h2> {/* MAKE THIS A NAVLINK TO ITEM PAGE LATER */}
             <p>£: {price}</p>
             <p>weight/unit: {weight}g</p>
-            <p>Cost/KG: {price}</p> {/*todo change this to calc later */}
+            <p>Cost/KG: £{(price / weight) * 1000}</p> {/*todo change this to calc later  cost/grams * 1000*/}
             <p>Stock Available: {stock}</p>
-            <button className="item-card-btn">Add to cart</button>
+            {home_page ? <button className="item-card-btn">View Details</button> : <button className="item-card-btn">Add to basket</button>}
         </div>
         </>
     )

@@ -1,0 +1,20 @@
+:root {
+  --primary: #36a266;
+  --secondary: #94D89D;
+  --accent: #D1EDD6;
+  --footer: #5C5346;
+  --bg: #F8FCF4;
+
+
+
+
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

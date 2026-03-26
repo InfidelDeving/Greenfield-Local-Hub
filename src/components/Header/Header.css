@@ -27,3 +27,12 @@
     flex-direction: row;
     gap: 15px;
 }
+
+@media only screen and (max-width: 800px) {
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

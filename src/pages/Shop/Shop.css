@@ -9,3 +9,41 @@
     font-weight: 400;
     font-size: 28pt;
 }
+
+.basket-cont{
+    align-self: flex-start;
+}
+
+.basket-card-cont{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.shop-title-layout-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basket-checkout-button{
+    justify-self: center;
+}
+
+
+@media only screen and (max-width: 917px) {
+    .shop-page-card-cont{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+  }
+
+
+.item-card-shop{
+    align-self: center;
+    font-weight:400;
+    text-decoration: none;
+    color: black;
+}
+

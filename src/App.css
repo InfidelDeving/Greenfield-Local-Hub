@@ -27,3 +27,6 @@
     flex-direction: column;
 }
 
+.input-field{
+    width: 50vw;
+}

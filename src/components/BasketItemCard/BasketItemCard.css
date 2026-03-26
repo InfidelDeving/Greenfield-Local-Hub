@@ -6,6 +6,9 @@
     width: 15vw;
     border-radius: 35px;
     padding: 5px;
+    border: 2px solid black;
+    align-items: center;
+    min-width: 137px;
 
 }
 
@@ -13,12 +16,16 @@
 .basket-item-card-layout-div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .qty-selector{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: fit-content;
+    padding: 0px 0px 20px 0px;
 }
 
 .basket-item-card-img{
@@ -41,8 +48,26 @@
     height: fit-content;
     padding: none;
     margin: none;
-    width: 100%;
+    width: 80px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 1501px) {
+    .basket-item-card{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: var(--secondary);
+        width: 15vw;
+        border-radius: 35px;
+        padding: 5px;
+        border: 2px solid black;
+        align-items: center;
+    
+    }
+}
+

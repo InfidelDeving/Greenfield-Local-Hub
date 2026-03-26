@@ -65,6 +65,7 @@ export default function Home(){
                             weight={300}
                             stock={999}
                             home_page={true}
+                            _id="001"
                         />
                         <ItemCard
                             image={strawberry}
@@ -73,6 +74,7 @@ export default function Home(){
                             weight={300}
                             stock={999}
                             home_page={true}
+                            _id="002"
                         />
                         <ItemCard
                             image={strawberry}

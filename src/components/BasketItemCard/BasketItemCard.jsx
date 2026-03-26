@@ -1,6 +1,6 @@
 import "./BasketItemCard.css"
 
-export default function BasketItemCard(image, price, name){
+export default function BasketItemCard({image, price, name}){
 
     let amount = 1;
 
@@ -19,7 +19,7 @@ export default function BasketItemCard(image, price, name){
                         <div className="qty-selector-amount"><p>{amount}</p></div>
                         <div className="qty-selector-btn">+</div>
                     </div>
-                    <p>£{price}</p>
+                    <p>£{(price * amount).toFixed(2)}</p>
                 </div>
                 
             </div>

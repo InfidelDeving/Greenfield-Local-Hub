@@ -8,6 +8,15 @@
     padding: 8px;
 }
 
+.page-cont-row{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
 
 .green-cont{
     background-color: var(--accent);

@@ -5,7 +5,7 @@ export default function ItemCard({image, name, price, weight, stock, home_page})
     return(
         <>
         <div className="item-card">
-            <img src={image} alt="item image" /> {/* MAKE THIS A NAVLINK TO ITEM PAGE LATER */}
+            <img src={image} alt={`${name} image`} /> {/* MAKE THIS A NAVLINK TO ITEM PAGE LATER */}
             <h2 className="item-name">{name}</h2> {/* MAKE THIS A NAVLINK TO ITEM PAGE LATER */}
             <p>£: {price}</p>
             <p>weight/unit: {weight}g</p>

@@ -1,0 +1,11 @@
+.shop-page-card-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.shop-h1{
+    align-self: center;
+    font-weight: 400;
+    font-size: 28pt;
+}

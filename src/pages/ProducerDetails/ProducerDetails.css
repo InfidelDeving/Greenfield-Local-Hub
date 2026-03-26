@@ -1,0 +1,41 @@
+.producer-details-img{
+    width: 60vw;
+}
+
+.producer-details-cont{
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .producer-details-img {
+      width: 80vw;
+    }
+  }
+
+  .producer-details-name{
+    font-weight: 400;
+    font-size: 30pt;
+  }
+
+  .producer-details-description-h2{
+    font-size: 22pt;
+    font-weight: 400;
+  }
+
+  .producer-details-description{
+    font-size: 18pt;
+    width: 40vw;
+  }
+
+.producer-details-Address-h3{
+    font-weight: 400;
+    font-size: 23pt;
+}
+
+.error-not-found{
+    align-self: center;
+    justify-self: flex-start;
+}

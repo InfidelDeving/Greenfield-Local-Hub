@@ -6,7 +6,6 @@ import "./Home.css"
 
 export default function Home(){
 
-
     return(
         <>
             <div className='page-cont'>
@@ -22,31 +21,37 @@ export default function Home(){
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="001"
                         />
                         <ProducerCard
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="002"
                         />
                         <ProducerCard
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="003"
                         />
                         <ProducerCard
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="004"
                         />
                         <ProducerCard
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="005"
                         />
                         <ProducerCard
                             image={FarmerGoku}
                             name="Farmer Goku"
                             tempdescription="GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!? GOKU!?"
+                            _id="006"
                         />
                     </div>
                 </div>

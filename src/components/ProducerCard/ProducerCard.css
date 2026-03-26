@@ -21,4 +21,7 @@
 .producer-name{
     align-self: center;
     font-weight:500;
+    color: black;
+    text-decoration: none;
 }
+
